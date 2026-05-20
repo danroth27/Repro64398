@@ -10,8 +10,8 @@ the same partial class).
 
 ## Repro steps
 
-1. Install Visual Studio 2026 Insiders **11206.111** or later and the .NET 10
-   SDK.
+1. Install Visual Studio 2026 Insiders **18.6.0 [11617.104.main]** (or
+   **11206.111**, per the original report) or newer, and the .NET 10 SDK.
 2. Clone this repo and open `Repro64398.csproj` in VS.
 3. Open `XEndpoints.Map.cs`.
 4. Place the caret inside any of the route parameter names in the route
